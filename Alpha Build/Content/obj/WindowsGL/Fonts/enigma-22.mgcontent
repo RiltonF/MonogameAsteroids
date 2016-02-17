@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Bob/Documents/Visual Studio 2015/Projects/Alpha Build/Alpha Build/Content/Fonts/enigma-22.fnt</SourceFile>
+  <SourceTime>2016-01-28T10:58:01.3046209+01:00</SourceTime>
+  <DestFile>C:/Users/Bob/Documents/Visual Studio 2015/Projects/Alpha Build/Alpha Build/Content/bin/WindowsGL/Fonts/enigma-22.xnb</DestFile>
+  <DestTime>2016-01-28T13:23:15.8616565+01:00</DestTime>
+  <Importer>BitmapFontImporter</Importer>
+  <ImporterTime>2016-01-09T10:51:39.2694365+01:00</ImporterTime>
+  <Processor>BitmapFontProcessor</Processor>
+  <ProcessorTime>2016-01-09T10:51:39.2694365+01:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

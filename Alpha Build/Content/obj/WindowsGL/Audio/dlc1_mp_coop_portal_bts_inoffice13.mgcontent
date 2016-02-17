@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Bob/Documents/Visual Studio 2015/Projects/Alpha Build/Alpha Build/Content/Audio/dlc1_mp_coop_portal_bts_inoffice13.mp3</SourceFile>
+  <SourceTime>2016-01-28T09:34:41.6783033+01:00</SourceTime>
+  <DestFile>C:/Users/Bob/Documents/Visual Studio 2015/Projects/Alpha Build/Alpha Build/Content/bin/WindowsGL/Audio/dlc1_mp_coop_portal_bts_inoffice13.xnb</DestFile>
+  <DestTime>2016-01-28T13:23:05.561906+01:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2015-04-29T19:14:44+02:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2015-04-29T19:14:44+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/Bob/Documents/Visual Studio 2015/Projects/Alpha Build/Alpha Build/Content/bin/WindowsGL/Audio/dlc1_mp_coop_portal_bts_inoffice13.m4a</string>
+  </BuildOutput>
+</PipelineBuildEvent>
