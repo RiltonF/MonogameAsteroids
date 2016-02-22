@@ -13,9 +13,9 @@ namespace Alpha_Build
     [Obsolete("code too slow, causing gitters in movemet")]
     class Listeners
     {
-        // InputManager is too slow for outputting changes in classes
+        // InputManager is too slow for outputting changes in classes, probably due to my poor coding
         //
-        // will have to use methods in as input handler
+        // will have to use methods on the levels as input handler
         //
         // KeyboardHandler is used instead in Level-x.cs
 

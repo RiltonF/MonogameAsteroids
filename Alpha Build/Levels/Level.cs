@@ -6,6 +6,9 @@ namespace Alpha_Build
 {
     public abstract class Level
     {
+
+        /* Base Level Class */
+
         public Level(Game1 game)
         {
             _mainGame = game;

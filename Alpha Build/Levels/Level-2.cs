@@ -40,6 +40,8 @@ namespace Alpha_Build.Levels
         public bool negativeForce { get; set; }
         public bool GameOver { get; set; }
 
+
+        /* Everything here is identical to Level-1 besides the mother ship creations locate in LoadContent() */
         public Level_2(Game1 game) : base(game)
         {
             Content.RootDirectory = "Content";

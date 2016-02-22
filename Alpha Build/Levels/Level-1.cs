@@ -126,7 +126,7 @@ namespace Alpha_Build.Levels
             GraphicsDevice.Clear(Color.Black);
             var projection = Matrix.CreateOrthographicOffCenter(0f, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, 0f, 0f, 1f);
             var transformMatrix = _camera.GetViewMatrix();
-            var view = Matrix.CreateScale(_ratio) * transformMatrix;
+            var view = Matrix.CreateScale(_ratio) * transformMatrix; //this'll scale the farseer bodies to the realtive meters/pixel values.
 
 
             //play with this
@@ -246,7 +246,7 @@ namespace Alpha_Build.Levels
         {
             var cosAngle = (float)Math.Cos(playerBreakableBody.MainBody.Rotation);
             var sinAngle = (float)Math.Sin(playerBreakableBody.MainBody.Rotation);
-            /*this doesn't work if camera controlls called before */
+            /*this doesn't work if camera controlls called before. Still have to figure out why. */
             if (keyboardState.IsKeyDown(Keys.Escape) & !_previousState.IsKeyDown(Keys.Escape))
                 Exit();
 

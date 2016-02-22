@@ -6,7 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+// Base class for crating entities. 
+// I might've gone a bit overboard with the constructors
+// In order to load the textures in you'll need give a path to the contructor.
 namespace Alpha_Build.Entities
 {
      public abstract class Entity
@@ -17,11 +19,13 @@ namespace Alpha_Build.Entities
         public Entity() { }
         public Entity(Game1 game)
         {
+            //define the game, we'll need this in order manipulate anything of the game class
             _mainGame = game;
         }
         public Entity(Game1 game, World world)
         {
             _mainGame = game;
+            //define the world for the farseer physics engine
             this.world = world;
         }
 

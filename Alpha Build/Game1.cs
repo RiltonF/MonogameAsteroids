@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -23,7 +23,6 @@ namespace Alpha_Build
         public GraphicsDeviceManager GraphicsDeviceManager { get; private set; }
         public Level CurrentLevel { get; private set; }
         private Sprite _background;
-        private Song song;
         private Texture2D bagroudTexture;
         public bool ConnectedGamePad { get; set; }
         public Game1()
@@ -43,24 +42,23 @@ namespace Alpha_Build
         {
             Window.Title = "Invaders Space 2 by B.V.E";
             Window.AllowUserResizing = false;
-            //Window.IsBorderless = true;
             IsMouseVisible = true;
+            //It's better is the game is in fullscreen.
             //GraphicsDeviceManager.PreferredBackBufferHeight = 720;
             //GraphicsDeviceManager.PreferredBackBufferHeight = 720;
             GraphicsDeviceManager.IsFullScreen = true;
             GraphicsDeviceManager.ApplyChanges();
 
-            //GraphicsDeviceManager.IsFullScreen = true;
         }
 
         protected override void LoadContent()
         {
             GraphicsDeviceManager.IsFullScreen = true;
+
+            //Load out assets through the pipeling and extended.
+
             _background = new Sprite(Content.Load<Texture2D>("Miscellaneous/starry-night-background"));
             bagroudTexture = Content.Load<Texture2D>("Miscellaneous/starry-night-background");
-            //this.song = Content.Load<Song>("Audio/sp_a2_core_b1");
-            //MediaPlayer.Play(song);
-            //MediaPlayer.IsRepeating = true;
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             _bitmapFont = Content.Load<BitmapFont>("Fonts/montserrat-32");
             _bitmapFont2 = Content.Load<BitmapFont>("Fonts/enigma-42");
