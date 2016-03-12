@@ -38,7 +38,7 @@ namespace Alpha_Build.Levels
         public bool negativeForce { get; set; }
         public bool GameOver { get; set; }
 
-        /* Identical to Level-1 except that the invaders don't shoot back.
+        /* Identical to Level-1 except that the invaders don't shoot back. */
 
         public Level_Practice(Game1 game) : base(game)
         {
